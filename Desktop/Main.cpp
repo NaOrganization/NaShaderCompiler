@@ -3,7 +3,7 @@
 #define DEFAULT_WINDOW_WIDTH 1920
 #define DEFAULT_WINDOW_HEIGHT 1080
 #define VERSION "v0.1"
-#define APPLICATION_NAME "NaShaderComplier Preview" " " VERSION
+#define APPLICATION_NAME "NaShaderCompiler Preview" " " VERSION
 #define THREAD_COUNT 4
 
 extern IMGUI_IMPL_API LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
