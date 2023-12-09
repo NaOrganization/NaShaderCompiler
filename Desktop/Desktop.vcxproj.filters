@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Dependence">
+      <UniqueIdentifier>{52058e9a-99be-429c-a3ee-5c0be4c08b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{f3bebd5b-4145-4b7f-a110-f3b3a95b4194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Controller">
+      <UniqueIdentifier>{58cf0185-f817-47e6-a398-cd8323f3f468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{b8b1e082-23d5-4468-9698-838bc748c142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\ImGui">
+      <UniqueIdentifier>{64c5d420-3fed-4ba0-bd98-98c7b4df52aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Monitor">
+      <UniqueIdentifier>{ef251341-d4ec-4810-95ae-3e91a0c9311a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dependence\CallbackManager.h">
+      <Filter>Dependence</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ThreadPool.h">
+      <Filter>Dependence</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\SingleInstance.h">
+      <Filter>Dependence</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Controller\Application.h">
+      <Filter>Core\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imconfig.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imgui.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imgui_internal.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imstb_rectpack.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imstb_textedit.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imstb_truetype.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Controller\Render.h">
+      <Filter>Core\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Controller\Logger.h">
+      <Filter>Core\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\backends\imgui_impl_dx11.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\backends\imgui_impl_win32.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Controller\Content.h">
+      <Filter>Core\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\stb_image.h">
+      <Filter>Dependence</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Monitor\Previews.h">
+      <Filter>Core\Monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Monitor\LoggerView.h">
+      <Filter>Core\Monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\Random.h">
+      <Filter>Dependence</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\misc\cpp\imgui_stdlib.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dependence\ImGui\imgui.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_demo.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_draw.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_tables.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_widgets.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\backends\imgui_impl_dx11.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
