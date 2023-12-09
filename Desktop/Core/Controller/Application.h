@@ -116,14 +116,14 @@ public:
 			wc.lpfnWndProc = wndProc;
 			wc.hInstance = GetModuleHandle(NULL);
 			wc.hCursor = LoadCursor(NULL, IDC_ARROW);
-			wc.lpszClassName = L"NaShaderComplier";
+			wc.lpszClassName = L"NaShaderCompiler";
 			if (!RegisterClassEx(&wc))
 			{
 				MessageBoxA(NULL, "Failed to register window class", "Error", MB_OK | MB_ICONERROR);
 				return *this;
 			}
 			// Create window
-			handl = CreateWindow(L"NaShaderComplier", title.c_str(), WS_OVERLAPPEDWINDOW, 100, 100, width, height, NULL, NULL, GetModuleHandle(NULL), NULL);
+			handl = CreateWindow(L"NaShaderCompiler", title.c_str(), WS_OVERLAPPEDWINDOW, 100, 100, width, height, NULL, NULL, GetModuleHandle(NULL), NULL);
 
 			if (handl == NULL)
 			{
